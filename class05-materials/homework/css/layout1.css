@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+header, footer{
+    border: 1px solid black;
+    height: 100px;
+    clear: both;
+}
+.One{
+    border: 1px solid black;
+    height: 300px;
+    width: 33.3333%;
+    float: left;
+}
+.Two{
+    border: 1px solid black;
+    height: 300px;
+    width: 50%;
+    float: left;
+}

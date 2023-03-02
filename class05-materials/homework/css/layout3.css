@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+header,footer{
+    border: 1px solid black;
+    height: 100px;
+    clear: both;
+
+}
+.One{
+    border: 1px solid black;
+    height: 500px;
+    width: 20%;
+    float: left;
+}
+.Two{
+    border: 1px solid black;
+    height: 500px;
+    width: 40%;
+    float: left;
+}

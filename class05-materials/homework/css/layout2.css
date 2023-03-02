@@ -1,0 +1,26 @@
+*{
+    box-sizing:border-box;
+}
+
+header,footer{
+    border: 1px solid black;
+    height:100px;
+    clear: both;
+}
+#One{
+    border: 1px solid black;
+    height:200px;
+}
+#Two{
+    border: 1px solid black;
+    height:300px;
+    width: 40%;
+    float: left;
+}
+#Three{
+    border: 1px solid black;
+    height:300px;
+    width:60%;
+    float: left;
+
+}
