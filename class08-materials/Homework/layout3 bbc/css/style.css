@@ -1,0 +1,77 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+header{
+  height:80px;
+  background: black;
+}
+
+nav *{
+  display:block;
+  float: left;
+}
+nav ul li{
+  float: left;
+  padding-top: 15px;
+  width: 100px;
+}
+#bbclogo{
+  width: 50%;
+  height: 50%;
+}
+form{
+  padding-top: 25px;
+}
+main section{
+  margin-top: 40px;
+  float: left;
+  height: 700px;
+  width: 50%;
+}
+main section + section section{
+  float: left;
+  height: 250px;
+  width:45%;
+  border: 1px solid black;
+}
+.bottom{
+  float: left;
+  width: 33.3333%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* header */
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/* links */
+a{
+  color: white;
+}
