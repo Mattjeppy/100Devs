@@ -1,0 +1,172 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  margin: 0;
+  padding: 0;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* HEADER */
+header {
+  background: white;
+  height: 80px;
+  float: left;
+  clear: both;
+}
+nav{
+  height: 80px;
+  float: left;
+  clear: both;
+  padding-left: 398px;
+}
+ul li, ul li img{
+  float: left;
+  width: 100px;
+  list-style: none;
+}
+/* MAIN */
+main{
+  height: 900px;
+  background-image: url(http://placekitten.com/g/1500/1500);
+  padding: 50px 300px 50px 150px;
+}
+#services{
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 60px;
+  width: 170px;
+  margin: 30px 0;
+}
+#offer{
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 220px;
+  width: 250px;
+}
+#offer span{
+  font-size: 24px;
+  font-weight: bold;
+}
+/* sectionOne */
+.sectionOne{
+  height: 500px;
+  float: left;
+}
+.sectionOne div{
+  padding-top: 150px;
+  text-align: center;
+  width: 33.3333%;
+  float: left;
+}
+.sectionOne h4{
+  color: black;
+}
+/* sectionTwo */
+.sectionTwo{
+  height: 500px;
+  float: left;
+}
+.sectionTwo > div{
+  padding-left: 140px;
+  padding-right: 140px;
+  width: 50%;
+  float: left;
+}
+.sectionTwo div + div{
+  padding-left: 190px;
+  width: 50%;
+  float: left;
+}
+/* sectionThree */
+.sectionThree{
+  margin-left: 140px;
+  height: 800px;
+  float: left;
+}
+.sectionThree div{
+  width: 33.3333%;
+  float: left;
+}
+.sectionThree div div{
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  background: black;
+  color: white;
+  margin-bottom: 50px;
+  float: left;
+}
+/* sectionFour */
+.sectionFour{
+  height: 400px;
+  width: 100%;
+  background-image: url(http://placekitten.com/g/1500/1500);
+  float: left;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.sectionFour p{
+  font-size: 20px;
+}
+.sectionFour span{
+  font-size: 30px;
+  font-weight: bold;
+}
+.sectionFour div{
+  padding: 5px;
+  height: 60px;
+  width: 170px;
+  background: black;
+  color: white;
+}
+  /* sectionThree */
+.sectionFive{
+  text-align: center;
+  height: 400px;
+  width: 100%;
+  float: left;
+  padding-top: 100px;
+}
+.sectionFive div{
+  width: 33.3333%;
+  float: left;
+}
+.sectionFive div img{
+  padding-top: 25px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1{
+  color: white;
+  font-size: 100px;
+}
+h4{
+  color: white;
+}
